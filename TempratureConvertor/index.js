@@ -11,7 +11,7 @@ function convert() {
   } else if (tocelsius.checked) {
     temp = Number(text.value);
     temp = (temp - 32) * (5 / 9);
-    result.textContent = temp.toFixed(1) + "°F";
+    result.textContent = temp.toFixed(1) + "°c";
   } else {
     result.textContent = "Please select the unit";
   }
